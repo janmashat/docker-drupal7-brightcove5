@@ -27,7 +27,9 @@ docker run -it --name drupal7-brightcove5 -p 80:80 -p 9001:9001 -v path_on_the_h
 ### Usage
 
 The session will start within a GNU screen, so you can `ctrl-a c` to create a new screen.
+
 The Drupal site will be accessible through your Docker machine's IP (Linux: http://localhost/ ; Windows/Mac check with `docker-machine ip`).
+
 Username/password are admin/admin by default, but can be changed (before running `docker build`) in `start.sh`.
 
 ### Credits
