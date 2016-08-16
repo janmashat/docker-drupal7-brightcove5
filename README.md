@@ -31,7 +31,7 @@ docker run -it --name drupal7-brightcove5 -p 80:80 -p 9001:9001 -v path_on_the_h
 
 #### Drupal
 
-* The site will be accessible through your Docker machine's IP (usually [http://localhost/](http://localhost/) or Docker Machine: `docker-machine ip`).
+* The site will be accessible through your Docker machine's IP (usually [http://localhost/](http://localhost/) or if Docker Machine is used then it can be checked with `docker-machine ip`).
 * Username/password are **admin/admin** by default, but can be changed in `start.sh` - before running `docker build`.
 
 ### Credits
